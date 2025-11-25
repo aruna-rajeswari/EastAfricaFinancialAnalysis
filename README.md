@@ -66,11 +66,6 @@ Upload the cleaned CSV and build:
 
 ---
 ---
-
-
 ---
-
-## 📫 Contact
-For queries or improvements, feel free to contribute or raise an issue.
-
+---
 ---
