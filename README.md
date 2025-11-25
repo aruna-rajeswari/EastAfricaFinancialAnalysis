@@ -52,8 +52,6 @@ The cleaned dataset is imported into **SQL** for analysis.
 - **Segmentation by financial inclusion status**  
   (e.g., users with bank account AND mobile money AND loan access)
 
-![Dashboard](https://github.com/user-attachments/assets/5bf536ea-1e77-435d-a246-8fc106813cf9)
-
 ---
 
 ## **Phase 3: Data Visualization**
@@ -63,6 +61,8 @@ Upload the cleaned CSV and build:
 - 🌍 **Country-wise inclusion map**
 - 📈 **Income distribution & credit access**
 - 👩‍🦰 **Gender-wise financial inclusion**
+
+![Dashboard](https://github.com/user-attachments/assets/5bf536ea-1e77-435d-a246-8fc106813cf9)
 
 ---
 ---
