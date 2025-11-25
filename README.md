@@ -1,8 +1,7 @@
-# 🌍 Financial Inclusion Data Pipeline & Analytics
+# 🌍 East Africa Financial Analysis Using Python, SQL and PowerBI
 
 ## 📌 Project Overview  
-This project aims to build an **end-to-end data engineering & analytics pipeline** to study **financial inclusion across East African countries** using a synthetic dataset of 50,000 rows.  
-It simulates real-world data challenges by including missing values, logical inconsistencies, negative income values, and malformed categorical fields.
+This project aims to build an **end-to-end data engineering & analytics pipeline** to study **financial inclusion across East African countries** using a synthetic dataset of 50,000 rows. It simulates real-world data challenges by including missing values, logical inconsistencies, negative income values, and malformed categorical fields.
 
 ### 🔧 Core Components
 1. **Python Data Pipeline** — cleaning, transforming, validating data  
@@ -25,14 +24,6 @@ The dataset includes **50,000 records** representing demographic and financial i
 | `loan_access`     | Access to credit or loan facilities |
 | `monthly_income`  | Reported monthly income (contains negative values) |
 
-The dataset intentionally includes:
-- Missing values
-- Negative or unrealistic income values  
-- Invalid age values  
-- Inconsistent categorical values  
-- Ambiguous status fields  
-
----
 
 # 🚀 Project Phases
 
@@ -49,13 +40,10 @@ The goal is to build a robust pipeline that cleans and transforms the dataset.
   - Clean missing entries
 - Save the cleaned dataset to a new CSV file
 
-Output:  
-📁 `cleaned_financial_inclusion_data.csv`
-
 ---
 
 ## **Phase 2: SQL Integration**
-The cleaned dataset is imported into **SQLite** or **PostgreSQL** for analysis.
+The cleaned dataset is imported into **SQL** for analysis.
 
 ### 🔍 Key SQL Queries include:
 - **Count of users per country**
@@ -64,46 +52,21 @@ The cleaned dataset is imported into **SQLite** or **PostgreSQL** for analysis.
 - **Segmentation by financial inclusion status**  
   (e.g., users with bank account AND mobile money AND loan access)
 
-Deliverable:  
-📄 `financial_inclusion_queries.sql`
+![Dashboard](https://github.com/user-attachments/assets/5bf536ea-1e77-435d-a246-8fc106813cf9)
 
 ---
 
 ## **Phase 3: Data Visualization**
 
-### Option A — **Python Visuals**
-Using **Matplotlib & Seaborn**:
-- Histogram of monthly income  
-- Bar chart: Education Level vs Bank Account Ownership  
-- Correlation Heatmap  
-- Gender-wise access to financial products  
-
-### Option B — **Power BI Dashboard**
+### **Power BI Dashboard**
 Upload the cleaned CSV and build:
 - 🌍 **Country-wise inclusion map**
 - 📈 **Income distribution & credit access**
 - 👩‍🦰 **Gender-wise financial inclusion**
-- 🔥 **Overall KPIs dashboard**
-
-Deliverable:  
-📊 `PowerBI_Financial_Inclusion.pbix`
 
 ---
-
-# ⭐ Optional Enhancements
-If extending the project:
-- Build a **Logistic Regression Model** to predict bank account ownership
-- Add **time-series components** to simulate monthly or yearly trends
-- Automate ETL using **Airflow or Prefect**
-
 ---
 
-# 📦 Deliverables Summary
-- ✔ Cleaned CSV dataset  
-- ✔ Full Python data pipeline (Jupyter notebook or .py file)  
-- ✔ SQL script for loading + analysis  
-- ✔ Visualizations in Python or Power BI  
-- ✔ Final Project Report (PDF or Markdown)
 
 ---
 
